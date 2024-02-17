@@ -1,0 +1,13 @@
+let x; // x is undefined by default
+
+function exampleFunction() {
+  // This function implicitly returns undefined
+}
+
+let obj = {};
+console.log(obj.nonexistentProperty); // Accessing a nonexistent property returns undefined
+
+let result = [1, 2, 3].find((element) => element > 3);
+console.log(result); // Returns undefined, as no element is greater than 3
+
+let someValue = null; // Represents the absence of an object
